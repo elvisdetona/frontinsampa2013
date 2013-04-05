@@ -21,11 +21,12 @@ p{
 }
 
 header,
-main,
-div.footer_center{
+.content,
+div.wrapper_foo{
     width: 1024px;
     margin: 0 auto;
     display: block;
+    position: relative;
 }
 
 header{
@@ -33,14 +34,14 @@ header{
 }
 
 header h1{
-    background: url("../img/frontinsampa.png") no-repeat;
+    /*background: url("../img/frontinsampa.png") no-repeat;*/
     width: 405px;
     height: 303px;
-    text-indent: -10000px;
+    /*text-indent: -10000px;*/
     margin: 0;
 }
 
-main > a{
+.content > a{
     background: url("../img/inscricoes.png") no-repeat;
     width: 380px;
     height: 105px;
@@ -88,7 +89,7 @@ section.featured *{
     text-align: center;
 }
 
-main .addthis_toolbox{
+.content .addthis_toolbox{
     float: right;
     margin-top: 70px;
 }
@@ -113,19 +114,23 @@ article.others p{
 
 section.featured > img{
     height: 690px;
-    left: 551px;
+    right: -120px;
     position: absolute;
-    top: 85px;
+    top: -270px;
     width: 762px;
     z-index: -1;
 }
 
 article.others{
     border-top: 2px solid #660000;
-    background: url("../img/reinaldo-ferraz.png") no-repeat 100px 10px;
     height: 230px;
-    padding-left: 350px;
+    padding-left: 100px;
     margin: 50px 0;
+}
+article.others img{ 
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
 }
 
 article.others h2{
@@ -152,24 +157,24 @@ footer div.info_event strong{
 }
 
 footer div.info_event p,
-footer div.footer_center > a{
+footer div.wrapper_foo > a{
     font-size: 28px;
     color: #e3d3d3;
 }
 
-div.footer_center{
+div.wrapper_foo{
     text-align: center;
     padding: 85px 0;
 }
 
-footer div.footer_center > a{
+footer div.wrapper_foo > a{
     float: left;
     text-decoration: underline;
     margin-top: 20px;
     margin-left: 20px;
 }
 
-footer div.footer_center div.social{
+footer div.wrapper_foo div.social{
     display: block;
     float: left;
     margin: 0 auto;
@@ -178,13 +183,13 @@ footer div.footer_center div.social{
     margin-top: 135px;
 }
 
-footer div.footer_center div.social div.links,
-footer div.footer_center div.social div.likes{
+footer div.wrapper_foo div.social div.links,
+footer div.wrapper_foo div.social div.likes{
     width: 340px;
     display: inline-block;
 }
 
-footer div.footer_center div.social div.links{
+footer div.wrapper_foo div.social div.links{
     margin-left: 35px;
 }
 
@@ -207,7 +212,7 @@ div.links a.twitter{
     height: 36px;
 }
 
-footer div.footer_center p.design_info{
+footer div.wrapper_foo p.design_info{
     float: left;
     margin-top: 95px;
     width: 100%;
