@@ -10,6 +10,7 @@
 	<meta property="og:type" content="website"/>
 	<meta property="og:description" content="FrontInSampa 2013 - Evento focado em Desenvolvimento Front-end em São Paulo, dia 14 de setembro de 2013." />
 	<meta property="og:url" content="http://www.frontinsampa.com.br/"/>
+	<meta property="og:description" content="FrontInSampa 2013 - Evento focado em Desenvolvimento Front-end em São Paulo, dia 14 de setembro de 2013."/>
 	<meta property="og:image" content="http://www.frontinsampa.com.br/img/frontinsampa.jpg" />
 	<meta property="og:site_name" content="FrontInSampa"/>
 	<meta property="og:locale" content="pt_br" />
@@ -19,6 +20,31 @@
 	<script type="text/javascript" src="http://modernizr.com/downloads/modernizr-latest.js"></script>
     <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=xa-4e4d4fa27f4e70bd"></script>
     <link rel="shortcut icon" href="img/favicon.ico" type="image/ico" />
+
+
+    <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-32925160-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<script type="text/javascript">
+		function recordOutboundLink(link, category, action) {
+		try {
+		var pageTracker=_gat._getTracker("UA-32925160-1");
+		pageTracker._trackEvent(category, action);
+		setTimeout('document.location = "' + link.href + '"', 100)
+		}catch(err){}
+		}
+	</script>
 	
 </head>
 <body>
@@ -37,22 +63,29 @@
 			
 		</section>
 		
-		<a href="http://www.eventick.com.br/frontinsampa2013" title="Vai perder? Faça já sua inscrição" rel="external" target="_blank">Faça já sua inscrição!</a>
+		<a onclick="recordOutboundLink(this, 'Inscricoes', 'siteBeta'); _gaq.push(['_link', 'http://www.eventick.com.br/frontinsampa2013']); return false;" href="http://www.eventick.com.br/frontinsampa2013" aria-label="Faça agora mesmo sua inscrição" title="Vai perder? Faça já sua inscrição" rel="external" target="_blank">Faça já sua inscrição!</a>
 
 		<article class="others">
 			<img src="img/reinaldo-ferraz.png" alt="Reinaldo Ferraz" />
 			<h2>Reinaldo Ferraz</h2>
 			<p>Especialista em Desenvolvimento Web - <strong>W3C Brasil</strong></p>
 		</article>
+		<article class="others">
+			<img src="img/maujor.png" alt="Maujor" />
+			<h2>Maurício Samy Silva - MAUJOR</h2>
+			<p>Convidado especial - Irá autografar seus livros</p>
+		</article>
 	</main>
 	<footer role="contentinfo">
 		<div class="wrapper_foo">
-			<div class="info_event">
-				<strong>Quer patrocinar</strong>
-				<p>ou saber mais do evento?</p>
+			<div class="clearfix">
+				<div class="info_event">
+					<strong>Quer patrocinar</strong>
+					<p>ou saber mais do evento?</p>
+				</div>
+				
+				<a href="mailto:frontinsampa@gmail.com" class="contact">frontinsampa@gmail.com</a>
 			</div>
-			
-			<a href="mailto:frontinsampa@gmail.com" class="contact">frontinsampa@gmail.com</a>
 			<div class="social">
 				<div class="likes">
 					<!-- AddThis Button BEGIN -->
@@ -69,7 +102,10 @@
 					<a href="http://twitter.com/frontinsp" class="twitter" rel="external" target="_blank">Twitter</a>
 				</div>
 			</div>
-			
+			<!--<div class="list">
+				<h2>Patrocínio:</h2>
+				<a href="http://novatec.com.br/autores/samy/" target="_blank"><img src="img/novatec.jpg"  alt="Editora Novatec"></a>
+			</div>-->
 			<p class="design_info">Design Diogo Rodrigues / <a href="http://www.ladodesign.com.br/" target="_blank">Lado Design</a></p>
 		</div>
 	</footer>

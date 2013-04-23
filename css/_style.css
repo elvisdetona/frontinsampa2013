@@ -19,14 +19,6 @@ p{
     margin: 0;
     line-height: 1;
 }
-.clearfix:after {
-    content:".";
-    display:block;
-    height:0;
-    clear:both;
-    visibility: hidden;
-}
-
 
 header,
 .content,
@@ -176,6 +168,7 @@ div.wrapper_foo{
 }
 
 footer div.wrapper_foo > a{
+    float: left;
     text-decoration: underline;
     margin-top: 20px;
     margin-left: 20px;
@@ -183,6 +176,7 @@ footer div.wrapper_foo > a{
 
 footer div.wrapper_foo div.social{
     display: block;
+    float: left;
     margin: 0 auto;
     text-align: center;
     width: 100%;
@@ -194,17 +188,7 @@ footer div.wrapper_foo div.social div.likes{
     width: 340px;
     display: inline-block;
 }
-.contact{
-    float: left;
-    font-size: 30px;
-    margin: 20px 0 0 15px;
-}
-.list{
-    clear: both;
-    margin: 50px 0 0;
-    text-align: left;
-}
-.list img{ width: 145px;}
+
 footer div.wrapper_foo div.social div.links{
     margin-left: 35px;
 }
@@ -230,9 +214,9 @@ div.links a.twitter{
 
 footer div.wrapper_foo p.design_info{
     float: left;
-    margin: 120px 0 15px;
+    margin-top: 95px;
     width: 100%;
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .addthis_toolbox *{
