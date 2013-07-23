@@ -137,8 +137,7 @@ article.others{
 }
 article.others img{ 
     float: left;
-    margin-top: 20px;
-    margin-left: 20px;
+    margin: 20px 20px 0 20px;
 }
 
 article.others h2{
@@ -230,7 +229,7 @@ div.links a.twitter{
 
 footer div.wrapper_foo p.design_info{
     float: left;
-    margin: 120px 0 15px;
+    margin: 50px 0 15px;
     width: 100%;
     font-size: 12px;
 }
