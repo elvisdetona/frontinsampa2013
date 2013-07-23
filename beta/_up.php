@@ -10,7 +10,7 @@
 <meta charset="utf-8">
 <meta name="description" content="FrontInSampa 2013 - Evento focado em Desenvolvimento Front-end em São Paulo, dia 14 de setembro de 2013." />
 <meta name="keywords" content="Frontend, Front-end, Frontend em São Paulo, eventos de frontend em São Paulo, FrontInSampa, FrontInSampa 2013" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
 <meta property="og:type" content="website"/>
 <meta property="og:locale" content="pt-br" />
 <meta property="og:title" content="FrontInSampa 2013" />
