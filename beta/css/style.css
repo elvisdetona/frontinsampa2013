@@ -24,6 +24,7 @@
 }
 body {
 	font-family: 'Oswald', Arial;
+	min-width: 1092px;
 }
 
 a, a:hover, a:focus{
@@ -173,10 +174,13 @@ a:hover, a:focus{opacity:0.65;}
 #oldie a {
 	text-decoration: underline;
 }
-#home {
+header#home {
 	background-image: url(../img/bg-up.jpg);
 	background-position: bottom center;
+	background-attachment: scroll;
 	height: 880px;
+	width: 100%;
+	display: block;
 }
 #home .share {
 	line-height: 80px;
@@ -194,6 +198,7 @@ a:hover, a:focus{opacity:0.65;}
 #home .nav {
 	position: relative;
 	top:-110px;
+	width: 100%;
 }
 #home .nav .link {
 	display: inline-block;
@@ -276,9 +281,12 @@ a:hover, a:focus{opacity:0.65;}
 }
 #sobre-o-evento {
 	background-color: #98232c;
+	background-size: 100% 100~%;
 	position: relative;
 	padding-top: 90px;
 	height: 605px;
+	width: 100%;
+	display:block;
 }
 #sobre-o-evento:before {
 	content: '';
@@ -488,7 +496,7 @@ a:hover, a:focus{opacity:0.65;}
 	 -webkit-animation-direction: alternate;
 	 -webkit-animation-timing-function: ease-out;
 	 -webkit-animation-fill-mode: forwards;
-	 -webkit-animation-delay: 0s
+	 -webkit-animation-delay: 0s;
 }
 
 #palestrantes .name {
