@@ -16,34 +16,34 @@
 			<li class="eq7 link tt-u"><a href="#contato">Contato</a></li>
 		</ul>
 	</nav>
-	<p class="edition ta-c tt-u">2<sup>ª</sup> Edição - Dia 14 de setembro de 2013, em São Paulo</p>
-	<h1 class="title ta-c tt-u">A place to learn community sampa</h1>
-	<h2 class="subtitle ta-c">thinkers and innovators for the creative community</h2>
+	<p class="edition ta-c tt-u">2<sup>ª</sup> Edição - Dia 14 de setembro de 2013</p>
+	<h2 class="title ta-c tt-u">Um evento para aprender, compartilhar e se divertir</h2>
+	<h3 class="subtitle ta-c">Com colaboradores, inovadores, personalidades e amigos da comunidade front-end</h3>
 	<div class="box-button ta-c">
 		<a href="http://www.eventick.com.br/frontinsampa2013" onclick="recordOutboundLink(this, 'Inscricoes', 'Button'); return false;" class="bt-signup d-ib">INSCREVA-SE <i class="_s"></i></a>
-		<p class="phrase">Valor de R$ 200,00</p>
+		<p class="phrase">R$ 200,00 (2º lote acaba dia 31/07)</p>
 	</div>
 </header>
 
 <div id="sobre-o-evento">
 	<div class="wrap">
-	<h3 class="title-big ta-c tt-u">Front In Sampa, o maior Evento de Front-end de São Paulo</h3>
+	<h3 class="title-big ta-c tt-u">FRONTINSAMPA: o evento de Front-end mais bacana de São Paulo</h3>
 	
 		<div class="text d-ib va-t">
-			<p>Após grande sucesso na sua edição de estreia, o Frontinsampa terá sua 2ª edição no dia 14 de Setembro de 2013, em São Paulo.</p>
-			<p>Um dia pra fazer muito network e conhecer grandes nomes da área do país e do mundo.</p>
+			<p>Após o sucesso do evento de estreia, o Frontinsampa terá sua 2ª edição no dia 14 de Setembro de 2013, em São Paulo.</p>
+			<p>Um dia para ampliar seu network e conhecer grandes nomes, entre os mais importantes do país e do mundo.</p>
 		</div>
 
 		<div class="text d-ib">
-			<p>Vai ficar de fora desse grande evento destinado aos desenvolvedores Front-end de todo o Brasil ?</p>
+			<p>Este ano, o evento será realizado na Rua Augusta, 501 (Inferno Club, próximo ao metrô Consolação). </p>
             
             <p>O evento acontecerá na Rua Augusta, 501 (próximo ao metro Consolação).<br>
-            Faça agora mesmo sua inscrição e garante seu lugar.</p>
+           Vai ficar de fora desse grande evento destinado aos desenvolveres Front-end de todo o Brasil? Faça agora mesmo sua inscrição e garanta sua vaga.</p>
 		</div>
 	</div>
 </div>
 <div id="fotos">
-	<h3 class="ta-c title">Fotos da primeira edição do evento / 2012.</h3>
+	<h3 class="ta-c title">Fotos do FRONTINSAMPA 2012</h3>
 	<div class="photos ta-c">
 		<ul class="slider">
 			<li><img src="img/temp/1.jpg" height="480" width="720" alt="Foto do evento Frontinsampa 2012" class="content video"></li>
@@ -63,7 +63,7 @@
 <div id="palestrantes" class="wrap ta-c">
 	<h3 class="title-big ta-c tt-u">Palestrantes</h3>
 	<p class="phrase ta-c">
-		Confira os nome confirmados até o momento, que darão um show de conteúdo no FrontInSampa 2013.
+		Confira os nomes já confirmados que irão compartilhar conhecimento e trazer novas informações ao FRONTINSAMPA 2013.
 	</p>
 	<ul class="lista">
 		<li class="thumb d-ib">
@@ -80,7 +80,7 @@
 				<img src="img/temp/reinaldo.jpg" height="245" width="245" alt="Reinaldo Ferraz palestrante do Frontinsampa">
 				<span class="info ta-c">
 					<span class="name tt-u">Reinaldo Ferraz</span>
-					<span class="work">Developer Relations W3C Brasil</span>
+					<span class="work">Especialista Desenvolvimento Web - W3C Brasil</span>
 				</span>
 			</a>
 		</li>
@@ -89,7 +89,7 @@
 				<img src="img/temp/maujor.jpg" height="245" width="245" alt="Maujor no Frontinsampa">
 				<span class="info ta-c">
 					<span class="name tt-u">Maujor</span>
-					<span class="work">Convidado Especial - Irá autografar seus livros </span>
+					<span class="work">Convidado Especial - Irá autografar seus livros</span>
 				</span>
 			</a>
 		</li>
@@ -125,7 +125,7 @@
 				<img src="img/temp/camilo-coutinho.jpg" height="245" width="245" alt="Camilo Coutinho palestrante do frontinsampa">
 				<span class="info ta-c">
 					<span class="name tt-u">Camilo Coutinho</span>
-					<span class="work">idea generator da Cajú Digital</span>
+					<span class="work">Idea generator da Cajú Digital</span>
 				</span>
 			</a>
 		</li>
@@ -164,7 +164,7 @@
 	<ul class="wrap">
 		<li class="list">
 			<div class="thumb d-ib va-t">
-				<div class="hour ta-c">à definir</div>
+				<div class="hour ta-c">a definir</div>
 				<div class="person">
 					<img src="img/temp/reinaldo.jpg" height="180" width="180" alt="Palestrante Reinaldo Ferraz">		
 				</div>
@@ -187,7 +187,7 @@
 		</li>
 		<li class="list">
 			<div class="thumb d-ib va-t">
-				<div class="hour ta-c">à definir</div>
+				<div class="hour ta-c">a definir</div>
 				<div class="person">
 					<img src="img/temp/felipe-nascimento.jpg" height="180" width="180" alt="Palestrante Felipe Nascimento">		
 				</div>
@@ -212,7 +212,7 @@ Utilizaremos o Power Polygon, um projeto Open Source iniciado por mim, para exem
 		
 		<li class="list">
 			<div class="thumb d-ib va-t">
-				<div class="hour ta-c">à definir</div>
+				<div class="hour ta-c">a definir</div>
 				<div class="person">
 					<img src="img/temp/loop-infinito.jpg"  alt="Logo do Loop Infinito">
 				</div>
@@ -222,7 +222,7 @@ Utilizaremos o Power Polygon, um projeto Open Source iniciado por mim, para exem
 				<i class="d-b trace">Palestra: CSS Layout: o ontem, o hoje, e o depois</i>
 				<a href="#" class="ver-mais tt-u"><i class="_s"></i>Detalhes da palestra</a>
 				<div class="about d-n">
-					<div class="description">Criadores do Blog Loop Infinito</div>
+					<div class="description">Criadores do Blog Loop Infinito e trabalham no Globo.com</div>
 					<p class="info">
                     Partindo do ontem com layouts em tabelas e passando pelo hoje com o box model, iremos explorar as limitações dessas abordagens para entender o que as novas técnicas do depois – flexbox, grids, regions e exclusions – vêm a solucionar</p>
 					<div class="links">
@@ -234,7 +234,7 @@ Utilizaremos o Power Polygon, um projeto Open Source iniciado por mim, para exem
 		</li>
         <li class="list">
 			<div class="thumb d-ib va-t">
-				<div class="hour ta-c">à definir</div>
+				<div class="hour ta-c">a definir</div>
 				<div class="person">
 					<img src="img/temp/camilo-coutinho.jpg" height="180" width="180" alt="Palestrante Camilo Coutinho">
 				</div>
@@ -246,11 +246,11 @@ Utilizaremos o Power Polygon, um projeto Open Source iniciado por mim, para exem
 				<div class="about d-n">
 					<div class="description">Idea generator da Cajú Digital</div>
 					<p class="info">
-                    Falta enviar detalhes da palestra <br>
                     Começou como designer e desenvolvedor. Passou por diversas implementações e madrugadas em deploy. Hoje é o idea generator da Cajú Digital, aonde busca levar melhores experiências para os consumidores de seus clientes. 
                 <br>
                 Já passou por grandes players do mercado como C&A, Submarino, Americanas, Shoptime e BuscaPé, além de trabalhar no grupo Newcomm com agências como Energy, Young & Rubicam e VML Brasil.
-                	
+                <br>
+                Com toda essa experiência em grandes agências e projetos, Coutinho vai falar de como está o mercado, dará dicas para que vc fique atualizado e fique na frente dos "concorrentes", aguarde!	
                     </p>
 					<div class="links">
 						<a href="https://twitter.com/camilocoutinho" target="_blank" ><i class="_s tw va-m">Twitter</i> @camilocoutinho</a>
@@ -261,7 +261,7 @@ Utilizaremos o Power Polygon, um projeto Open Source iniciado por mim, para exem
 		</li>
         <li class="list">
 			<div class="thumb d-ib va-t">
-				<div class="hour ta-c">à definir</div>
+				<div class="hour ta-c">a definir</div>
 				<div class="person">
 					<img src="img/temp/lea.jpg" height="180" width="180" alt="Palestrante Lea Verou">
 				</div>
@@ -286,7 +286,7 @@ Utilizaremos o Power Polygon, um projeto Open Source iniciado por mim, para exem
 	<h3 class="title-big ta-c tt-u">Local</h3>
 	<p class="phrase ta-c">
 		<strong>Inferno Club</strong><br>
-        Rua Augusta, 501 - (próximo ao metro Consolação)
+        Rua Augusta, 501 (próximo ao metro Consolação)
 	</p>
     <div class="maps wrap d-b">
     	<iframe width="100%" height="455" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=-23.5515232,+-46.65069790000001+(Frontinsampa+2013)&amp;hl=pt-BR&amp;ie=UTF8&amp;t=m&amp;ll=-23.551556,-46.650696&amp;spn=0.038711,0.085831&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=-23.5515232,+-46.65069790000001+(Frontinsampa+2013)&amp;hl=pt-BR&amp;ie=UTF8&amp;t=m&amp;ll=-23.551556,-46.650696&amp;spn=0.038711,0.085831&amp;z=14&amp;iwloc=A&amp;source=embed" style="color:#0000FF;text-align:left"></a></small>
