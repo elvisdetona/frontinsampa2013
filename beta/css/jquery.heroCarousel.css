@@ -30,11 +30,29 @@ position: absolute;
 bottom: 225px;
 }
 
+.hero-carousel-nav a{
+background-image: url(../img/sprite-sampa.png);
+display: block;
+width: 30px;
+height: 30px;
+text-indent: -9999px;
+opacity: .7;
+}
+.hero-carousel-nav a:hover{
+opacity: 1;
+}
+
 .hero-carousel-nav .next {
-left: 0px;
+	left: 5px;
 }
 .hero-carousel-nav .prev {
-right: 0px;
+	right: 5px;
+}
+.hero-carousel-nav .next a{
+	background-position: -316px -173px;
+}
+.hero-carousel-nav .prev a{
+	background-position: -346px -173px;
 }
 
 .hero-carousel-nav li a {
