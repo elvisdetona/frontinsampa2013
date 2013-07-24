@@ -17,8 +17,8 @@
 		</ul>
 	</nav>
 	<p class="edition ta-c tt-u">2<sup>ª</sup> Edição - Dia 14 de setembro de 2013</p>
-	<h2 class="title ta-c tt-u">Um evento para aprender, compartilhar e se divertir</h2>
-	<h3 class="subtitle ta-c">Com colaboradores, inovadores, personalidades e amigos da comunidade front-end</h3>
+	<h2 class="title ta-c tt-u">Aprender, compartilhar e se divertir</h2>
+	<h3 class="subtitle ta-c">Inovadores, personalidades e amigos da comunidade front-end juntos</h3>
 	<div class="box-button ta-c">
 		<a href="http://www.eventick.com.br/frontinsampa2013" onclick="recordOutboundLink(this, 'Inscricoes', 'Button'); return false;" class="bt-signup d-ib">INSCREVA-SE <i class="_s"></i></a>
 		<p class="phrase">R$ 200,00 (2º lote acaba dia 31/07)</p>
@@ -36,9 +36,7 @@
 
 		<div class="text d-ib">
 			<p>Este ano, o evento será realizado na Rua Augusta, 501 (Inferno Club, próximo ao metrô Consolação). </p>
-            
-            <p>O evento acontecerá na Rua Augusta, 501 (próximo ao metro Consolação).<br>
-           Vai ficar de fora desse grande evento destinado aos desenvolveres Front-end de todo o Brasil? Faça agora mesmo sua inscrição e garanta sua vaga.</p>
+           <p>Vai ficar de fora desse grande evento destinado aos desenvolveres Front-end de todo o Brasil? Faça agora mesmo sua inscrição e garanta sua vaga.</p>
 		</div>
 	</div>
 </div>
@@ -63,7 +61,7 @@
 <div id="palestrantes" class="wrap ta-c">
 	<h3 class="title-big ta-c tt-u">Palestrantes</h3>
 	<p class="phrase ta-c">
-		Confira os nomes já confirmados que irão compartilhar conhecimento e trazer novas informações ao FRONTINSAMPA 2013.
+		Confira os nomes já confirmados que irão trazer e compartilhar conhecimento ao FRONTINSAMPA 2013.
 	</p>
 	<ul class="lista">
 		<li class="thumb d-ib">
@@ -107,7 +105,7 @@
 				<img src="img/temp/caio-gondim.jpg" height="245" width="245" alt="Caio Gondim palestrante do frontinsampa">
 				<span class="info ta-c">
 					<span class="name tt-u">Caio Gondim</span>
-					<span class="work">Criador do Blog Loop Infinito</span>
+					<span class="work">Globo.com e Criador do Loop Infinito</span>
 				</span>
 			</a>
 		</li>
@@ -116,7 +114,7 @@
 				<img src="img/temp/almir-filho.jpg" height="245" width="245" alt="Almir Filho palestrante do frontinsampa">
 				<span class="info ta-c">
 					<span class="name tt-u">Almir Filho</span>
-					<span class="work">Criador do Blog Loop Infinito</span>
+					<span class="work">Globo.com e Criador do Loop Infinito</span>
 				</span>
 			</a>
 		</li>
@@ -218,8 +216,8 @@ Utilizaremos o Power Polygon, um projeto Open Source iniciado por mim, para exem
 				</div>
 			</div>
 			<div class="text d-ib">
-				<div class="name">Caio Gondim e Almir Filho</div>
-				<i class="d-b trace">Palestra: CSS Layout: o ontem, o hoje, e o depois</i>
+				<div class="name">Caio Gondim e Almir Filho - Loop Infinito</div>
+				<i class="d-b trace">Palestra: CSS Layout: o ontem, o hoje e o depois</i>
 				<a href="#" class="ver-mais tt-u"><i class="_s"></i>Detalhes da palestra</a>
 				<div class="about d-n">
 					<div class="description">Criadores do Blog Loop Infinito e trabalham no Globo.com</div>
@@ -286,7 +284,7 @@ Utilizaremos o Power Polygon, um projeto Open Source iniciado por mim, para exem
 	<h3 class="title-big ta-c tt-u">Local</h3>
 	<p class="phrase ta-c">
 		<strong>Inferno Club</strong><br>
-        Rua Augusta, 501 (próximo ao metro Consolação)
+        Rua Augusta, 501 (próximo ao metrô Consolação)
 	</p>
     <div class="maps wrap d-b">
     	<iframe width="100%" height="455" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=-23.5515232,+-46.65069790000001+(Frontinsampa+2013)&amp;hl=pt-BR&amp;ie=UTF8&amp;t=m&amp;ll=-23.551556,-46.650696&amp;spn=0.038711,0.085831&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=-23.5515232,+-46.65069790000001+(Frontinsampa+2013)&amp;hl=pt-BR&amp;ie=UTF8&amp;t=m&amp;ll=-23.551556,-46.650696&amp;spn=0.038711,0.085831&amp;z=14&amp;iwloc=A&amp;source=embed" style="color:#0000FF;text-align:left"></a></small>
