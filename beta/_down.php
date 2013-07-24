@@ -2,10 +2,8 @@
 	<h3 class="title-middle ta-c tt-u">Patrocinadores</h3>
 	<ul class="ta-c">
 		<li class="d-ib"><a href="http://novatec.com.br/" target="_blank"><img src="img/temp/novatec.jpg" alt="Editora Novatec"></a></li>
-		<li class="d-ib"><a href="http://www.caelum.com.br/" target="_blank"><img src="img/temp/caelum.jpg" alt="Caelum"></a></li>
-		
-	</ul>
-    
+		<li class="d-ib"><a href="http://www.caelum.com.br/" target="_blank"><img src="img/temp/caelum.jpg" alt="Caelum"></a></li>		
+	</ul>   
 </div>
 <div id="patrocina" class="apoio">
 	
@@ -77,45 +75,7 @@ $.fn.navmovin=function(){
 		}, 1000);
 	});
 }
-$.fn.slidElvis=function(){
-	var css=$('head').append('<style id="slidElvis" />').children('#slidElvis');
-	$(this).each(function(){
-		var t=$(this);
-		$(t).wrap('<div class="slider-container" />').parent().width($(document).width()).append('<div class="navigator ta-c" />');
-		$('li',t).each(function(e){
-			$(this).addClass('eq-'+e);
-			$(css).append('.eq-'+e+'{left:'+e*25+'%;}');
-			$(t).next().append('<i class="d-ib eq-'+e+'" />');
-		})
-		$('li:eq(2)',t).addClass('active');
-		$('.navigator i:eq(2)').addClass('active');
-		$('li:odd',t).addClass('small');
-		var nav=$(t).parent().find('.navigator');
-		$('i',nav).click(function(){
-			if($(this).is('.active'))return false;
-			$('i',nav).removeClass('active');
-			$(this).addClass('active');
-			var eq=$(this).index(),
-			x=$('li',t).eq(eq).position().left;
-			if($('li',t).eq(eq).is('.small'))$('li',t).toggleClass('small');
-			$(t).css({left:-x+$(document).width()/2});
-		})
-		$('img',t).click(function(e){
-			if($(this).parent().is('.active'))return false;
-			$('li',t).removeClass('active');
-			var img=$(this),
-			pai=$(img).parent(),
-			e_x=e.offsetX,
-			x=$(pai).addClass('active').position().left,
-			nav_eq=$('.active',t).index();
-			$(t).css({left:-x+$(document).width()/2});
-			if($(pai).is('.small'))$('li',t).toggleClass('small');
-			$(nav).children('i').removeClass('active').eq(nav_eq).addClass('active');
-		});
-	})
-}
 $('#home .nav ul, #up-fixed .nav ul').navmovin();
-$('#fotos .slider').slidElvis();
 $('#programacao .ver-mais').click(function(e) {
 	e.preventDefault();
 	$(this).next().slideToggle();
@@ -123,6 +83,12 @@ $('#programacao .ver-mais').click(function(e) {
 $(window).scroll(function(){
 	scrollY>=325 ? $('#up-fixed').slideDown() : $('#up-fixed').slideUp();
 });
+$('#palestrantes .thumb').hover(function(){
+	$(this).addClass('thumb-hover');
+},function(){
+	$(this).removeClass('thumb-hover');
+})
+$('#fotos .slider').heroCarousel();
 </script>
 
 
@@ -132,7 +98,6 @@ $(window).scroll(function(){
 window.___gcfg={lang: 'pt-BR'};(function(){var po=document.createElement('script'); po.type='text/javascript'; po.async=true;po.src='https://apis.google.com/js/plusone.js';var s=document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);})();
 (function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if (d.getElementById(id)) return;js=d.createElement(s); js.id=id;js.src="https://connect.facebook.net/pt_BR/all.js#xfbml=1&appId=173543772672417";fjs.parentNode.insertBefore(js,fjs);}(document,'script','facebook-jssdk'));
 !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
-
 </script>
 
 
