@@ -1,0 +1,46 @@
+.hero {
+width: 100%;
+position: relative;
+overflow: hidden;
+margin-bottom: 48px;
+}
+
+.hero-carousel article {
+width: 980px;
+height: 480px;
+display: block;
+float: left;
+position: relative;
+text-align: center;
+}
+
+.hero-carousel-container article {
+float: left;
+}
+
+.hero-carousel-nav {
+width: 100%;
+position: absolute;
+bottom: 0;
+z-index: 2;
+}
+
+.hero-carousel-nav li {
+position: absolute;
+bottom: 225px;
+}
+
+.hero-carousel-nav .next {
+left: 0px;
+}
+.hero-carousel-nav .prev {
+right: 0px;
+}
+
+.hero-carousel-nav li a {
+
+}
+
+.hero-carousel-nav li a:hover { 
+
+}

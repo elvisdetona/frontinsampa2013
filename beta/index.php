@@ -45,18 +45,18 @@
 <div id="fotos">
 	<h3 class="ta-c title">Fotos do FRONTINSAMPA 2012</h3>
 	<div class="photos ta-c">
-		<ul class="slider">
-			<li><img src="img/temp/1.jpg" height="480" width="720" alt="Foto do evento Frontinsampa 2012" class="content video"></li>
-			<li><img src="img/temp/2.jpg" height="480" width="720" alt="Foto do evento Frontinsampa 2012" class="content"></li>
-			<li><img src="img/temp/3.jpg" height="480" width="720" alt="Foto do evento Frontinsampa 2012" class="content"></li>
-			<li><img src="img/temp/4.jpg" height="480" width="720" alt="Foto do evento Frontinsampa 2012" class="content"></li>
-			<li><img src="img/temp/5.jpg" height="480" width="720" alt="Foto do evento Frontinsampa 2012" class="content"></li>
-			<li><img src="img/temp/6.jpg" height="480" width="720" alt="Foto do evento Frontinsampa 2012" class="content"></li>
-			<li><img src="img/temp/7.jpg" height="480" width="720" alt="Foto do evento Frontinsampa 2012" class="content"></li>
-			<li><img src="img/temp/8.jpg" height="480" width="720" alt="Foto do evento Frontinsampa 2012" class="content"></li>
-			<li><img src="img/temp/9.jpg" height="480" width="720" alt="Foto do evento Frontinsampa 2012" class="content"></li>
-			<li><img src="img/temp/10.jpg" height="480" width="720" alt="Foto do evento Frontinsampa 2012" class="content"></li>
-		</ul>	
+		<div class="slider hero-carousel">
+			<article><img src="img/temp/1.jpg" height="480" width="720" alt="Foto do evento Frontinsampa 2012" class="content video"></article>
+			<article><img src="img/temp/2.jpg" height="480" width="720" alt="Foto do evento Frontinsampa 2012" class="content"></article>
+			<article><img src="img/temp/3.jpg" height="480" width="720" alt="Foto do evento Frontinsampa 2012" class="content"></article>
+			<article><img src="img/temp/4.jpg" height="480" width="720" alt="Foto do evento Frontinsampa 2012" class="content"></article>
+			<article><img src="img/temp/5.jpg" height="480" width="720" alt="Foto do evento Frontinsampa 2012" class="content"></article>
+			<article><img src="img/temp/6.jpg" height="480" width="720" alt="Foto do evento Frontinsampa 2012" class="content"></article>
+			<article><img src="img/temp/7.jpg" height="480" width="720" alt="Foto do evento Frontinsampa 2012" class="content"></article>
+			<article><img src="img/temp/8.jpg" height="480" width="720" alt="Foto do evento Frontinsampa 2012" class="content"></article>
+			<article><img src="img/temp/9.jpg" height="480" width="720" alt="Foto do evento Frontinsampa 2012" class="content"></article>
+			<article><img src="img/temp/10.jpg" height="480" width="720" alt="Foto do evento Frontinsampa 2012" class="content"></article>
+		</div>
 	</div>
 </div>
 
@@ -289,10 +289,8 @@ Utilizaremos o Power Polygon, um projeto Open Source iniciado por mim, para exem
         Rua Augusta, 501 (próximo ao metro Consolação)
 	</p>
     <div class="maps wrap d-b">
-    	<iframe width="100%" height="455" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=-23.5515232,+-46.65069790000001+(Frontinsampa+2013)&amp;hl=pt-BR&amp;ie=UTF8&amp;t=m&amp;ll=-23.551556,-46.650696&amp;spn=0.038711,0.085831&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=-23.5515232,+-46.65069790000001+(Frontinsampa+2013)&amp;hl=pt-BR&amp;ie=UTF8&amp;t=m&amp;ll=-23.551556,-46.650696&amp;spn=0.038711,0.085831&amp;z=14&amp;iwloc=A&amp;source=embed" style="color:#0000FF;text-align:left"></a></small>
-    
+    	<iframe width="100%" height="455" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=-23.5515232,+-46.65069790000001+(Frontinsampa+2013)&amp;hl=pt-BR&amp;ie=UTF8&amp;t=m&amp;ll=-23.551556,-46.650696&amp;spn=0.038711,0.085831&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=-23.5515232,+-46.65069790000001+(Frontinsampa+2013)&amp;hl=pt-BR&amp;ie=UTF8&amp;t=m&amp;ll=-23.551556,-46.650696&amp;spn=0.038711,0.085831&amp;z=14&amp;iwloc=A&amp;source=embed" style="color:#0000FF;text-align:left"></a></small> 
     </div>
-	
 </div>
 
 <?php include('_down.php');?>

@@ -25,6 +25,7 @@
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 <link rel="icon" href="/favicon.ico" type="image/x-icon">
 <link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/jquery.heroCarousel.css">
 <link rel="stylesheet" href="css/style.css">
 
 
