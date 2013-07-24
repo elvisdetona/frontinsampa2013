@@ -44,16 +44,33 @@
 	<h3 class="ta-c title">Fotos do FRONTINSAMPA 2012</h3>
 	<div class="photos ta-c">
 		<div class="slider hero-carousel">
-			<article><img src="img/temp/1.jpg" height="480" width="720" alt="Foto do evento Frontinsampa 2012" class="content video"></article>
-			<article><img src="img/temp/2.jpg" height="480" width="720" alt="Foto do evento Frontinsampa 2012" class="content"></article>
-			<article><img src="img/temp/3.jpg" height="480" width="720" alt="Foto do evento Frontinsampa 2012" class="content"></article>
-			<article><img src="img/temp/4.jpg" height="480" width="720" alt="Foto do evento Frontinsampa 2012" class="content"></article>
-			<article><img src="img/temp/5.jpg" height="480" width="720" alt="Foto do evento Frontinsampa 2012" class="content"></article>
-			<article><img src="img/temp/6.jpg" height="480" width="720" alt="Foto do evento Frontinsampa 2012" class="content"></article>
-			<article><img src="img/temp/7.jpg" height="480" width="720" alt="Foto do evento Frontinsampa 2012" class="content"></article>
-			<article><img src="img/temp/8.jpg" height="480" width="720" alt="Foto do evento Frontinsampa 2012" class="content"></article>
-			<article><img src="img/temp/9.jpg" height="480" width="720" alt="Foto do evento Frontinsampa 2012" class="content"></article>
-			<article><img src="img/temp/10.jpg" height="480" width="720" alt="Foto do evento Frontinsampa 2012" class="content"></article>
+			<article><img src="img/temp/slide_1.jpg" height="480" width="720" alt="Todos os participantes do evento" class="content"></article>
+			<article><img src="img/temp/slide_2.jpg" height="480" width="720" alt="Sorteio de brindes" class="content"></article>
+			<article><img src="img/temp/slide_3.jpg" height="480" width="720" alt="Palestra de Teste A/B" class="content"></article>
+			<article><img src="img/temp/slide_4.jpg" height="480" width="720" alt="Participantes do evento" class="content"></article>
+			<article><img src="img/temp/slide_5.jpg" height="480" width="720" alt="Palestra de Fábio Ricotta" class="content"></article>
+			<article><img src="img/temp/slide_6.jpg" height="480" width="720" alt="Freela não compensa" class="content"></article>
+			<article><img src="img/temp/slide_7.jpg" height="480" width="720" alt="HTML5" class="content"></article>
+			<article><img src="img/temp/slide_8.jpg" height="480" width="720" alt="Participantes" class="content"></article>
+			<article><img src="img/temp/slide_9.jpg" height="480" width="720" alt="Berndard De Luna" class="content"></article>
+			<article><img src="img/temp/slide_10.jpg" height="480" width="720" alt="Alguns palestrantes do Evento" class="content"></article>
+			<article><img src="img/temp/slide_11.jpg" height="480" width="720" alt="Exemplo de CSS3" class="content"></article>
+			<article><img src="img/temp/slide_12.jpg" height="480" width="720" alt="Zeno Rocha" class="content"></article>
+			<article><img src="img/temp/slide_14.jpg" height="480" width="720" alt="Venda de Livros relacionado a Frontend" class="content"></article>
+			<article><img src="img/temp/slide_15.jpg" height="480" width="720" alt="Participantes do evento" class="content"></article>
+			<article><img src="img/temp/slide_16.jpg" height="480" width="720" alt="Mais participantes do evento" class="content"></article>
+			<article><img src="img/temp/slide_17.jpg" height="480" width="720" alt="Horácio Soares" class="content"></article>
+			<article><img src="img/temp/slide_18.jpg" height="480" width="720" alt="Foto do evento Frontinsampa 2012" class="content"></article>
+			<article><img src="img/temp/slide_19.jpg" height="480" width="720" alt="Ame sua segunda-feira" class="content"></article>
+			<article><img src="img/temp/slide_20.jpg" height="480" width="720" alt="Palestra de SEO" class="content"></article>
+			<article><img src="img/temp/slide_21.jpg" height="480" width="720" alt="Clécio Bachini" class="content"></article>
+			<article><img src="img/temp/slide_22.jpg" height="480" width="720" alt="Todos os Palestrantes do Evento" class="content"></article>
+			<article><img src="img/temp/slide_23.jpg" height="480" width="720" alt="Bernard De Luna e Zeno Rocha" class="content"></article>
+			<article><img src="img/temp/slide_24.jpg" height="480" width="720" alt="Participantes do evento" class="content"></article>
+			<article><img src="img/temp/slide_25.jpg" height="480" width="720" alt="Elvis, Jean Nascimento (oSuissa), Deivid Marques" class="content"></article>
+			<article><img src="img/temp/slide_26.jpg" height="480" width="720" alt="Elvis, Jean Nascimento (oSuissa), Deivid Marques" class="content"></article>
+			<article><img src="img/temp/slide_27.jpg" height="480" width="720" alt="Perguntas para os 7Masters" class="content"></article>
+			<article><img src="img/temp/slide_28.jpg" height="480" width="720" alt="Happy Hour pós evento" class="content"></article>
 		</div>
 	</div>
 </div>
