@@ -12,6 +12,7 @@
 		<li class="d-ib"><a href="http://www.eventick.com.br" target="_blank"><img src="img/temp/eventick.jpg" alt="Eventick apoia o Frontinsampa"></a></li>
 		<li class="d-ib"><a href="http://conferenciaweb.w3c.br/" target="_blank"><img src="img/temp/webbr.jpg" alt="Evento Web Br W3C Brasil"></a></li>
 		<li class="d-ib"><a href="http://www.gravento.com.br/" target="_blank"><img src="img/temp/gravento.jpg" alt="Gravento apoia o Frontinsampa"></a></li>		
+		<li class="d-ib"><a href="http://www.imasters.com.br/" target="_blank"><img src="img/temp/imasters.jpg" alt="iMasters apoia o Frontinsampa"></a></li>		
 	</ul>
 </div>
 <footer id="contato" role="contentinfo">
@@ -67,7 +68,9 @@ $.fn.navmovin=function(){
 		var t=$(this);
 		w=$(t).width();
 		l=$(t).position().left;
-		$(t).siblings('i').stop().animate({left:l,width:w},200);
+		$(t).siblings('i').stop().animate({left:l,width:w,opacity: 1},200);
+	},function(){
+		$(this).siblings('i').stop().animate({opacity: 0},400);
 	}).click(function(e){
 		e.preventDefault();
 		var tag=e.target;
