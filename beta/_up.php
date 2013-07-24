@@ -4,7 +4,7 @@
 <!--[if lt IE 7]>	<html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>		<html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>		<html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="pt-BR"> <!--<![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="pt-BR" itemscope itemtype="http://schema.org/Event"> <!--<![endif]-->
 <head>
 <title>FrontInSampa 2013 | 14 de Setembro de 2013</title>
 <meta charset="utf-8">
@@ -31,25 +31,25 @@
 
 
 <script type="text/javascript">
-	  var _gaq = _gaq || [];
-	  _gaq.push(['_setAccount', 'UA-32925160-1']);
-	  _gaq.push(['_trackPageview']);
-	  _gaq.push(['_trackPageLoadTime']);
-	  (function() {
-		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-	  })();
-	</script>
-	<script type="text/javascript">
-		function recordOutboundLink(link, category, action) {
-		try {
-		var pageTracker=_gat._getTracker("UA-32925160-1");
-		pageTracker._trackEvent(category, action);
-		setTimeout('document.location = "' + link.href + '"', 100)
-		}catch(err){}
-		}
-	</script>
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-32925160-1']);
+	_gaq.push(['_trackPageview']);
+	_gaq.push(['_trackPageLoadTime']);
+	(function() {
+	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+<script type="text/javascript">
+function recordOutboundLink(link, category, action) {
+try {
+	var pageTracker=_gat._getTracker("UA-32925160-1");
+	pageTracker._trackEvent(category, action);
+	setTimeout('document.location = "' + link.href + '"', 100)
+}catch(err){}
+}
+</script>
 
 <? if($ieold): ?>
 	<script src="js/modernizr.min.js"></script>

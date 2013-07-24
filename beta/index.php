@@ -1,9 +1,13 @@
 <?php include('_up.php');?>
 <header id="home" class="large" role="banner">
 	<div class="share wrap ta-r">
-		<a href="https://twitter.com/share" class="twitter-share-button" data-lang="en">Tweet</a>
-		<div class="g-plusone" data-size="medium"></div>
-		<div class="fb-like" data-href="http://developers.facebook.com/docs/reference/plugins/like" data-send="false" data-layout="button_count" data-width="80" data-show-faces="false"></div>
+		<!-- AddThis Button BEGIN -->
+		<span class="d-ib">
+			<a class="addthis_button_tweet"></a>
+			<a class="addthis_button_google_plusone" g:plusone:size="medium"></a>  
+			<a class="addthis_button_facebook_like"></a>
+		</span>
+		<!-- AddThis Button END -->
 	</div>
 	<h1 class="logo _s va-m">FrontInSampa</h1>
 	<nav class="nav ta-c wrap " role="navigation">
@@ -36,7 +40,7 @@
 
 		<div class="text d-ib">
 			<p>Este ano, o evento será realizado na Rua Augusta, 501 (Inferno Club, próximo ao metrô Consolação). </p>
-           <p>Vai ficar de fora desse grande evento destinado aos desenvolveres Front-end de todo o Brasil? Faça agora mesmo sua inscrição e garanta sua vaga.</p>
+		   <p>Vai ficar de fora desse grande evento destinado aos desenvolveres Front-end de todo o Brasil? Faça agora mesmo sua inscrição e garanta sua vaga.</p>
 		</div>
 	</div>
 </div>
@@ -144,7 +148,16 @@
 				</span>
 			</a>
 		</li>
-        <li class="thumb d-ib">
+		<li class="thumb d-ib">
+			<a href="#">
+				<img src="img/temp/eduardo-shiota.jpg" height="245" width="245" alt="Eduardo Shiota palestrante do frontinsampa">
+				<span class="info ta-c">
+					<span class="name tt-u">Eduardo Shiota</span>
+					<span class="work">Front-End Engineer na Baby.com.br</span>
+				</span>
+			</a>
+		</li>
+		<li class="thumb d-ib">
 			<a href="#">
 				<img src="img/temp/diego-bicudo.jpg" height="245" width="245" alt="Dhiego Bicudo apresentador do frontinsampa">
 				<span class="info ta-c">
@@ -153,7 +166,7 @@
 				</span>
 			</a>
 		</li>
-        <li class="thumb d-ib">
+		<li class="thumb d-ib">
 			<a href="#">
 				<img src="img/temp/palestrante.jpg" height="245" width="245" alt="">
 				<span class="info ta-c">
@@ -162,7 +175,7 @@
 				</span>
 			</a>
 		</li>
-        <li class="thumb d-ib">
+		<li class="thumb d-ib">
 			<a href="#">
 				<img src="img/temp/palestrante.jpg" height="245" width="245" alt="">
 				<span class="info ta-c">
@@ -171,7 +184,7 @@
 				</span>
 			</a>
 		</li>
-        
+		
 	</ul>
 </div>
 <div id="programacao">
@@ -239,7 +252,7 @@ Utilizaremos o Power Polygon, um projeto Open Source iniciado por mim, para exem
 				<div class="about d-n">
 					<div class="description">Criadores do Blog Loop Infinito e trabalham no Globo.com</div>
 					<p class="info">
-                    Partindo do ontem com layouts em tabelas e passando pelo hoje com o box model, iremos explorar as limitações dessas abordagens para entender o que as novas técnicas do depois – flexbox, grids, regions e exclusions – vêm a solucionar</p>
+					Partindo do ontem com layouts em tabelas e passando pelo hoje com o box model, iremos explorar as limitações dessas abordagens para entender o que as novas técnicas do depois – flexbox, grids, regions e exclusions – vêm a solucionar</p>
 					<div class="links">
 						<a href="https://twitter.com/loopinfinito" target="_blank"><i class="_s tw va-m">Twitter</i> @loopinfinito</a>
 						<a href="https://www.facebook.com/l8pinfinito" target="_blank"><i class="_s fb va-m">Facebook</i> /l8pinfinito</a>
@@ -247,7 +260,7 @@ Utilizaremos o Power Polygon, um projeto Open Source iniciado por mim, para exem
 				</div>
 			</div>
 		</li>
-        <li class="list">
+		<li class="list">
 			<div class="thumb d-ib va-t">
 				<div class="hour ta-c">a definir</div>
 				<div class="person">
@@ -261,12 +274,12 @@ Utilizaremos o Power Polygon, um projeto Open Source iniciado por mim, para exem
 				<div class="about d-n">
 					<div class="description">Idea generator da Cajú Digital</div>
 					<p class="info">
-                    Começou como designer e desenvolvedor. Passou por diversas implementações e madrugadas em deploy. Hoje é o idea generator da Cajú Digital, aonde busca levar melhores experiências para os consumidores de seus clientes. 
-                <br>
-                Já passou por grandes players do mercado como C&A, Submarino, Americanas, Shoptime e BuscaPé, além de trabalhar no grupo Newcomm com agências como Energy, Young & Rubicam e VML Brasil.
-                <br>
-                Com toda essa experiência em grandes agências e projetos, Coutinho vai falar de como está o mercado, dará dicas para que vc fique atualizado e fique na frente dos "concorrentes", aguarde!	
-                    </p>
+					Começou como designer e desenvolvedor. Passou por diversas implementações e madrugadas em deploy. Hoje é o idea generator da Cajú Digital, aonde busca levar melhores experiências para os consumidores de seus clientes. 
+				<br>
+				Já passou por grandes players do mercado como C&A, Submarino, Americanas, Shoptime e BuscaPé, além de trabalhar no grupo Newcomm com agências como Energy, Young & Rubicam e VML Brasil.
+				<br>
+				Com toda essa experiência em grandes agências e projetos, Coutinho vai falar de como está o mercado, dará dicas para que vc fique atualizado e fique na frente dos "concorrentes", aguarde!	
+					</p>
 					<div class="links">
 						<a href="https://twitter.com/camilocoutinho" target="_blank" ><i class="_s tw va-m">Twitter</i> @camilocoutinho</a>
 						<a href="https://www.facebook.com/camilocoutinho" target="_blank"><i class="_s fb va-m">Facebook</i> /camilocoutinho</a>
@@ -274,7 +287,32 @@ Utilizaremos o Power Polygon, um projeto Open Source iniciado por mim, para exem
 				</div>
 			</div>
 		</li>
-        <li class="list">
+		<li class="list">
+			<div class="thumb d-ib va-t">
+				<div class="hour ta-c">a definir</div>
+				<div class="person">
+					<img src="img/temp/eduardo-shiota.jpg" height="180" width="180" alt="Palestrante Eduardo Shiota">
+				</div>
+			</div>
+			<div class="text d-ib">
+				<div class="name">Eduardo Shiota</div>
+				<i class="d-b trace">Lightning talk: Escrevendo músicas da era 8-bits com JavaScript e Web Audio API</i>
+				<a href="#" class="ver-mais tt-u"><i class="_s"></i>Detalhes da palestra</a>
+				<div class="about d-n">
+					<div class="description">Front-End Engineer na Baby.com.br</div>
+					<p class="info">
+					Os navegadores modernos oferecem APIs que muitas vezes nem chegamos a conhecer e utilizar no dia-a-dia. Um exemplo é a API de Web Audio, que permite reproduzir e criar sons no browser utilizando apenas código JavaScript.
+					<br>
+					Para estudá-la (e me divertir um pouco), resolvi bolar uma maneira de escrever partituras simples em formato JSON e conseguir reproduzi-las no navegador. O resultado disso foi o RetroJS: um experimento de Web Audio, com um feeling nostálgico da era 8-bits. Neste talk, vou explicar como transformei notações musicais em strings, e strings em música. 
+					</p>
+					<div class="links">
+						<a href="https://twitter.com/shiota" target="_blank" ><i class="_s tw va-m">Twitter</i> @shiota</a>
+						<a href="https://www.facebook.com/eduardo.shiota" target="_blank"><i class="_s fb va-m">Facebook</i> /eduardo.shiota</a>
+					</div>
+				</div>
+			</div>
+		</li>
+		<li class="list">
 			<div class="thumb d-ib va-t">
 				<div class="hour ta-c">a definir</div>
 				<div class="person">
@@ -301,11 +339,11 @@ Utilizaremos o Power Polygon, um projeto Open Source iniciado por mim, para exem
 	<h3 class="title-big ta-c tt-u">Local</h3>
 	<p class="phrase ta-c">
 		<strong>Inferno Club</strong><br>
-        Rua Augusta, 501 (próximo ao metrô Consolação)
+		Rua Augusta, 501 (próximo ao metrô Consolação)
 	</p>
-    <div class="maps wrap d-b">
-    	<iframe width="100%" height="455" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=-23.5515232,+-46.65069790000001+(Frontinsampa+2013)&amp;hl=pt-BR&amp;ie=UTF8&amp;t=m&amp;ll=-23.551556,-46.650696&amp;spn=0.038711,0.085831&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=-23.5515232,+-46.65069790000001+(Frontinsampa+2013)&amp;hl=pt-BR&amp;ie=UTF8&amp;t=m&amp;ll=-23.551556,-46.650696&amp;spn=0.038711,0.085831&amp;z=14&amp;iwloc=A&amp;source=embed" style="color:#0000FF;text-align:left"></a></small> 
-    </div>
+	<div class="maps wrap d-b">
+		<iframe width="100%" height="455" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=-23.5515232,+-46.65069790000001+(Frontinsampa+2013)&amp;hl=pt-BR&amp;ie=UTF8&amp;t=m&amp;ll=-23.551556,-46.650696&amp;spn=0.038711,0.085831&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=-23.5515232,+-46.65069790000001+(Frontinsampa+2013)&amp;hl=pt-BR&amp;ie=UTF8&amp;t=m&amp;ll=-23.551556,-46.650696&amp;spn=0.038711,0.085831&amp;z=14&amp;iwloc=A&amp;source=embed" style="color:#0000FF;text-align:left"></a></small> 
+	</div>
 </div>
 
 <?php include('_down.php');?>

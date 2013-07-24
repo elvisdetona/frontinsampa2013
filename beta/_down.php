@@ -32,9 +32,13 @@
 				<strong>Acompanhe o FRONTINSAMPA</strong> através das redes sociais<a href="https://twitter.com/frontinsp" target="_blank" class="tw _s va-m">Twitter</a> <a href="https://www.facebook.com/frontinsampa" target="_blank" class="fb _s va-m">Facebook</a>
 			</div>
 			<div class="share">
-				<a href="https://twitter.com/share" class="twitter-share-button" data-lang="en">Tweet</a>
-				<div class="g-plusone" data-size="medium"></div>
-				<div class="fb-like" data-href="http://developers.facebook.com/docs/reference/plugins/like" data-send="false" data-layout="button_count" data-width="80" data-show-faces="false"></div>
+				<!-- AddThis Button BEGIN -->
+				<span class="d-ib">
+					<a class="addthis_button_tweet"></a>
+					<a class="addthis_button_google_plusone" g:plusone:size="medium"></a>  
+					<a class="addthis_button_facebook_like"></a>
+				</span>
+				<!-- AddThis Button END -->
 			</div>
 		</div>
 		<div class="sign">
@@ -78,30 +82,15 @@ $.fn.navmovin=function(){
 $('#home .nav ul, #up-fixed .nav ul').navmovin();
 $('#programacao .ver-mais').click(function(e) {
 	e.preventDefault();
-	$(this).next().slideToggle();
+	$(this).next().slideToggle().closest('.list').toggleClass('active');
 });
 $(window).scroll(function(){
 	scrollY>=325 ? $('#up-fixed').slideDown() : $('#up-fixed').slideUp();
 });
-$('#palestrantes .thumb').hover(function(){
-	$(this).addClass('thumb-hover');
-},function(){
-	$(this).removeClass('thumb-hover');
-})
 $('#fotos .slider').heroCarousel();
 </script>
 
-
-
-
-<script>
-window.___gcfg={lang: 'pt-BR'};(function(){var po=document.createElement('script'); po.type='text/javascript'; po.async=true;po.src='https://apis.google.com/js/plusone.js';var s=document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);})();
-(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if (d.getElementById(id)) return;js=d.createElement(s); js.id=id;js.src="https://connect.facebook.net/pt_BR/all.js#xfbml=1&appId=173543772672417";fjs.parentNode.insertBefore(js,fjs);}(document,'script','facebook-jssdk'));
-!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
-</script>
-
-
-
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=xa-4e4d4fa27f4e70bd"></script>
 
 </body>
 </html>

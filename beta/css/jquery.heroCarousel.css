@@ -43,22 +43,14 @@ opacity: 1;
 }
 
 .hero-carousel-nav .next {
-	left: 5px;
+right: 5px;
 }
 .hero-carousel-nav .prev {
-	right: 5px;
+left: 5px;
 }
 .hero-carousel-nav .next a{
-	background-position: -316px -173px;
+background-position: -346px -173px;
 }
 .hero-carousel-nav .prev a{
-	background-position: -346px -173px;
-}
-
-.hero-carousel-nav li a {
-
-}
-
-.hero-carousel-nav li a:hover { 
-
+background-position: -316px -173px;
 }
