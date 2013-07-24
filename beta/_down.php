@@ -11,7 +11,7 @@
 	<ul class="ta-c">
 		<li class="d-ib"><a href="http://www.eventick.com.br" target="_blank"><img src="img/temp/eventick.jpg" alt="Eventick apoia o Frontinsampa"></a></li>
 		<li class="d-ib"><a href="http://conferenciaweb.w3c.br/" target="_blank"><img src="img/temp/webbr.jpg" alt="Evento Web Br W3C Brasil"></a></li>
-		
+		<li class="d-ib"><a href="http://www.gravento.com.br/" target="_blank"><img src="img/temp/gravento.jpg" alt="Gravento apoia o Frontinsampa"></a></li>		
 	</ul>
 </div>
 <footer id="contato" role="contentinfo">
