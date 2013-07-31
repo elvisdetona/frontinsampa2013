@@ -1,0 +1,229 @@
+html{
+    overflow-x: hidden;
+}
+
+body{
+    background: url("../img/bg.jpg") no-repeat;
+    background-size: cover;
+    color: #fff;
+    font-family: 'Open Sans';
+    margin: 0;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+p{
+    margin: 0;
+    line-height: 1;
+}
+
+header,
+.content,
+div.wrapper_foo{
+    width: 1024px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+}
+
+header{
+    margin-top: 50px;
+}
+
+header h1{
+    /*background: url("../img/frontinsampa.png") no-repeat;*/
+    width: 405px;
+    height: 303px;
+    /*text-indent: -10000px;*/
+    margin: 0;
+}
+
+.content > a{
+    background: url("../img/inscricoes.png") no-repeat;
+    width: 380px;
+    height: 105px;
+    display: block;
+    text-indent: -10000px;
+}
+
+p.date{
+    width: 380px;
+    display: block;
+    border-bottom: 4px solid #4f4f4f;
+    text-align: center;
+    font-size: 33px;
+    text-transform: uppercase;
+    padding-bottom: 35px;
+}
+
+p.date span.date-year{
+    font-size: 55px;
+    font-weight: bold;
+}
+
+p.date span.date-year:after,
+section.featured *:after{
+    clear: both;
+}
+
+p.date span.date-year:after,
+p.date span.date-year:before,
+section.featured *:after,
+section.featured *:before{
+    content: ""; display: table;
+}
+
+section.featured{
+    width: 380px;
+    border-bottom: 4px solid #4f4f4f;
+    margin: 25px 0;
+    padding-bottom: 15px;
+}
+
+section.featured *{
+    width: 380px;
+    display: block;
+    text-align: center;
+}
+
+.content .addthis_toolbox{
+    float: right;
+    margin-top: 70px;
+}
+
+section.featured p:first-child{
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+section.featured h2,
+article.others h2{
+    font-size: 33px;
+    text-transform: uppercase;
+    margin: 5px 0;
+}
+
+section.featured p,
+section.featured a,
+article.others p{
+    font-size: 20px;
+}
+
+section.featured > img{
+    height: 690px;
+    right: -120px;
+    position: absolute;
+    top: -270px;
+    width: 762px;
+    z-index: -1;
+}
+
+article.others{
+    border-top: 2px solid #660000;
+    height: 230px;
+    padding-left: 100px;
+    margin: 50px 0;
+}
+article.others img{ 
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+article.others h2{
+    margin-top: 100px;
+}
+
+footer{
+    background: url("../img/bg-footer2.png") repeat-x scroll center top / cover transparent;
+    height: 548px;
+    width: 100%;
+}
+
+footer div.info_event{
+    width: 515px;
+    background: url("../img/arrow.png") no-repeat right;
+    text-transform: uppercase;
+    text-align: right;
+    padding-right: 70px;
+    float: left;
+}
+
+footer div.info_event strong{
+    font-size: 38px;
+}
+
+footer div.info_event p,
+footer div.wrapper_foo > a{
+    font-size: 28px;
+    color: #e3d3d3;
+}
+
+div.wrapper_foo{
+    text-align: center;
+    padding: 85px 0;
+}
+
+footer div.wrapper_foo > a{
+    float: left;
+    text-decoration: underline;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+footer div.wrapper_foo div.social{
+    display: block;
+    float: left;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    margin-top: 135px;
+}
+
+footer div.wrapper_foo div.social div.links,
+footer div.wrapper_foo div.social div.likes{
+    width: 340px;
+    display: inline-block;
+}
+
+footer div.wrapper_foo div.social div.links{
+    margin-left: 35px;
+}
+
+div.links a{
+    text-indent: -100000px;
+    display: block;
+    float: left;
+    margin-left: 28px;
+}
+
+div.links a.facebook{
+    background: url("../img/facebook-frontinsampa.png") no-repeat;
+    width: 138px;
+    height: 36px;
+}
+
+div.links a.twitter{
+    background: url("../img/twitter-frontinsampa.png") no-repeat;
+    width: 118px;
+    height: 36px;
+}
+
+footer div.wrapper_foo p.design_info{
+    float: left;
+    margin-top: 95px;
+    width: 100%;
+    font-size: 15px;
+}
+
+.addthis_toolbox *{
+    float: left !important;
+}
+
+.addthis_button_tweet{
+    width: 120px;
+    margin-left: 20px;
+}

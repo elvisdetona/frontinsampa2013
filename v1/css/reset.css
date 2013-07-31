@@ -1,0 +1,8 @@
+html,noscript,body,section,nav,article,aside,h1,h2,h3,h4,h5,h6,hgroup,header,footer,address,p,hr,br,pre,blockquote,ol,ul,li,dl,dt,dd,figure,figcaption,div,main,a,em,strong,small,s,cite,q,dfn,abbr,time,code,var,samp,kbd,sub,sup,i,b,u,mark,span,ins,del,img,iframe,embed,object,param,video,audio,source,track,canvas,map,area,table,caption,colgroup,col,tbody,thead,tfoot,tr,td,th,form,fieldset,legend,label,input,button,select,datalist,optgroup,option,textarea,keygen,output,progress,meter,details,summary,command,menu{font-style: normal;padding: 0;margin: 0;box-sizing: border-box;}
+body,html{height: 100%;}a{text-decoration: none;color: inherit;cursor: pointer;}
+li{list-style-type: none;}
+textarea{resize: none;font-family: inherit;}
+fieldset,hr,input,select,textarea,keygen,img{border: none;outline: none;font-family: inherit;}
+input[type=button],input[type=submit],input[type=reset],input[type=submit],input[type=file],input[type=image]{cursor: pointer;}
+input[disabled]{cursor: default;}
+.cf::before,.cf::after{content: "";display: block;}.cf::after{clear: both;}
