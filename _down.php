@@ -1,28 +1,29 @@
 <div id="patrocina">
 	<h3 class="title-middle ta-c tt-u">Patrocinadores</h3>
-    <p class="ta-c">Prata</p>
+	<ul class="ta-c title-middle">
+		<li class="d-ib"><a href="http://www.w3c.br/Home/WebHome" target="_blank"><img src="img/temp/logo-w3c-nic-cgi.jpg" alt="Logo W3C NIC CGI"></a></li>
+	</ul>
 	<ul class="ta-c title-middle">
 		<li class="d-ib"><a href="http://globo.com/" target="_blank"><img src="img/temp/globocom.jpg" alt="Globo.com"></a></li>
 	</ul>
-    <p class="ta-c">Bronze</p>
 	<ul class="ta-c">
 		<li class="d-ib"><a href="http://novatec.com.br/" target="_blank"><img src="img/temp/novatec.jpg" alt="Editora Novatec"></a></li>
 		<li class="d-ib"><a href="http://www.caelum.com.br/" target="_blank"><img src="img/temp/caelum.jpg" alt="Caelum"></a></li>
+        <li class="d-ib"><a href="https://www.facebook.com/Cakerollbr" target="_blank"><img src="img/temp/cake-roll.jpg" alt="Cake Roll"></a></li>
 	</ul>
 </div>
 <div id="patrocina" class="apoio">
 
     <h3 class="title-middle ta-c tt-u">Apoio</h3>
 	<ul class="ta-c">
-		<li class="d-ib"><a href="http://www.eventick.com.br" target="_blank"><img src="img/temp/eventick.jpg" alt="Eventick apoia o Frontinsampa"></a></li>
-		<li class="d-ib"><a href="http://conferenciaweb.w3c.br/" target="_blank"><img src="img/temp/webbr.jpg" alt="Evento Web Br W3C Brasil"></a></li>
-		<li class="d-ib"><a href="http://www.gravento.com.br/" target="_blank"><img src="img/temp/gravento.jpg" alt="Gravento apoia o Frontinsampa"></a></li>
-		<li class="d-ib"><a href="http://www.imasters.com.br/" target="_blank"><img src="img/temp/imasters.jpg" alt="iMasters apoia o Frontinsampa"></a></li>
+        <li class="d-ib"><a href="http://www.eventick.com.br" target="_blank"><img src="img/temp/eventick.jpg" alt="Eventick apoia o Frontinsampa"></a></li>
+        <li class="d-ib"><a href="http://conferenciaweb.w3c.br/" target="_blank"><img src="img/temp/webbr.jpg" alt="Evento Web Br W3C Brasil"></a></li>
+        <li class="d-ib"><a href="http://www.gravento.com.br/" target="_blank"><img src="img/temp/gravento.jpg" alt="Gravento apoia o Frontinsampa"></a></li>
+        <li class="d-ib"><a href="http://www.imasters.com.br/" target="_blank"><img src="img/temp/imasters.jpg" alt="iMasters apoia o Frontinsampa"></a></li>
         <li class="d-ib"><a href="http://eucompraria.com.br/" target="_blank"><img src="img/temp/eucompraria.jpg" alt="Eu compraia apoia o Frontinsampa"></a></li>
         <li class="d-ib"><a href="https://www.facebook.com/caravanaweb" target="_blank"><img src="img/temp/caravanaweb.jpg" alt="CaravanaWeb apoia o Frontinsampa"></a></li>
-	
-    
-    </ul>
+        <li class="d-ib"><a href="http://www.feecbr.com.br/pt/" target="_blank"><img src="img/temp/feec-brazil.jpg" alt="Feec Brazil apoia o Frontinsampa"></a></li>
+	</ul>
 </div>
 <footer id="contato" role="contentinfo">
 	<div class="wrap">
@@ -45,7 +46,7 @@
 				<!-- AddThis Button BEGIN -->
 				<span class="d-ib">
 					<a class="addthis_button_tweet"></a>
-					<a class="addthis_button_google_plusone" g:plusone:size="meglobodium"></a>
+					<a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
 					<a class="addthis_button_facebook_like"></a>
 				</span>
 				<!-- AddThis Button END -->
@@ -53,7 +54,7 @@
 		</div>
 		<div class="sign">
 			<div class="copyright">&copy; 2013 - FRONTINSAMPA. Todos os direitos reservados.</div>
-			<p class="lado-design">Design Diogo Rodrigues / Lado Design</p>
+			<p class="lado-design">Design <a href="http://diogorodrigues.com.br" title="Diogo Rodrigues" target="_blank">Diogo Rodrigues</a> / <a href="http://www.ladodesign.com.br" title="Lado Design" target="_blank">Lado Design</a></p>
 		</div>
 	</div>
 </footer>

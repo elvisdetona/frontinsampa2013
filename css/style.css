@@ -431,7 +431,7 @@ header#home {
 	left: 0;
 	width: 243px;
 	height: 220px;
-	padding: 40px;
+	padding: 20px 40px;
 	line-height: normal;
 	background-color: #fff;
 	color: #fff;
@@ -485,7 +485,8 @@ header#home {
 	display: block;
 	position: relative;
 	line-height: 35px;
-	padding-bottom: 15px;
+	padding-bottom: 10px;
+	width: 170px;
 }
 #palestrantes .name:before {
 	content: '';
@@ -498,10 +499,12 @@ header#home {
 	top: 100%;
 }
 #palestrantes .work {
-	margin-top: 10px;
 	display: block;
-	font-family: 'Open';
-	font-size: 20px;
+  font-family: 'Open';
+  font-size: 20px;
+  line-height: 24px;
+  margin-top: 10px;
+  width: 170px;
 }
 #programacao {
 	padding-top: 120px;
@@ -851,7 +854,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00232323', e
 #contato .contato {
 	margin-left: 100px;
 	text-align: center;
-	width: 645px;
+	width: 585px;
 }
 #contato .inputs {
 	float: left;
@@ -921,4 +924,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00232323', e
 .lnk-contact{
 	color: #d21322;
 	font-size:48px;
+}
+.blues:focus{
+    position: relative;
+    left: auto;
+}
+.blues{
+    position:absolute;
+    left:-999em;
 }
