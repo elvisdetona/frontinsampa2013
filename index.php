@@ -217,7 +217,7 @@
 			</div>
 			<div class="text d-ib">
 				<div class="name">Bernard de Luna</div>
-				<i class="d-b trace">Palestra: Semântica: uma jogada pelos componentes web</i>
+				<i class="d-b trace">Palestra: Semântica: uma jornada pelos componentes web</i>
 				<a href="#" class="ver-mais tt-u"><i class="_s"></i>Detalhes da Palestra</a>
 				<div class="about d-n">
 					<div class="description">Já palestrou na HTML5DevConf em San Francisco e em mais de 50 eventos pelo Brasil, foi Team Leader de produto na Petrobras, e tem atuado nos últimos anos como Product manager, alinhando UX com códigos e processos ágeis. É um dos principais palestrantes e colunistas sobre Front-end no Brasil e responsável pelo
@@ -438,9 +438,9 @@ Utilizaremos o Power Polygon, um projeto Open Source iniciado por mim, para exem
 </p>
 <p class="info">Você só poderá ir embora depois de acompanhar em tempo real algumas manipulações de código para quebrar barreiras de acesso dos seus projetos web. Formulários, cabeçalhos, imagens, WAI-ARIA e muito outras dicas de desenvolvimento serão dadas nessa palestra</p>
 					<div class="links">
-                        <a href="http://youtu.be/VbruE1qIFQA" class="blues" target="_blank" title="Clique para assistir o vídeo que Reinaldo Ferraz enviou para complementar sua palestra">easter egg: Eu tornei meu site acessível</a>
 						<a href="https://twitter.com/reinaldoferraz" target="_blank"><i class="_s tw va-m">Twitter</i> @reinaldoferraz</a>
 						<a href="https://www.facebook.com/reinaldoferraz.00" target="_blank"><i class="_s fb va-m">Facebook</i> /reinaldoferraz.00</a>
+                        <a href="http://youtu.be/VbruE1qIFQA" class="blues" target="_blank" title="Clique para assistir o vídeo que Reinaldo Ferraz enviou para complementar sua palestra">Eu tornei meu site acessível</a>
 					</div>
 				</div>
 			</div>
